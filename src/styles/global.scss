@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body,
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    .App {
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      height: 4px;
+      background-color: rgb(79, 151, 219);
+    }
+  
+    .div--wrapper {
+      display: flex;
+      padding: 20px;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+  
+      a {
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+  
+        &:hover {
+          background-color: rgb(79, 151, 219);
+          transition: 0.5s;
+        }
+      }
+    }
+  
+    .div--animation {
+      background-color: rgb(79, 151, 219);
+      height: 4px;
+      width: 50px;
+      position: absolute;
+      left: 42%;
+      top: 4px;
+      transition: 1s;
+    }
+  
+    .img--main{
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      height: 200px;
+      width: 200px;
+    }
+  }
+

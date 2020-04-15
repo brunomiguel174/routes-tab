@@ -1,0 +1,24 @@
+.div--banner {
+    position: relative;
+    left: 40%;
+    top: 0;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(88, 88, 86);
+    padding-left: 10px;
+    color: white;
+    transition: top 1s ease-in;
+    .hideBanner {
+      position: absolute;
+      left: 90%;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      height: 14px;
+      width: 14px;
+    }  
+}

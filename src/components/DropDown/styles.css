@@ -1,0 +1,89 @@
+.button {
+  width: 350px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 12px;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.button .chevron:before {
+  position: absolute;
+  height: 1px;
+  width: 6px;
+  background-color: #414141;
+  content: "";
+  top: 16px;
+  right: 12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 1px 0px 0px 1px;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.button .chevron:after {
+  position: absolute;
+  height: 1px;
+  width: 6px;
+  background-color: #414141;
+  content: "";
+  top: 16px;
+  right: 8px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  border-radius: 0px 1px 1px 0px;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.dropdown.up .chevron:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.dropdown.up .chevron:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.dropdown ul {
+  overflow-y: hidden;
+}
+
+.style--dinamicDiv {
+  width: 350px;
+  background: #858585;
+  margin-left: 20px;
+  height: 0px;
+  -webkit-transition: height 2s linear;
+  transition: height 2s linear;
+  position: relative;
+}
+
+.p--item {
+  padding-left: 12px;
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.p--item:hover {
+  background: rgba(194, 192, 192, 0.589);
+}
+
+h3 {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

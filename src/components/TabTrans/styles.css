@@ -1,0 +1,58 @@
+.div-main {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.div-container {
+  width: 32%;
+  position: absolute;
+  top: 16%;
+  left: 34%;
+  height: 4px;
+  background-color: #85ecca;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.div--animationTab {
+  position: fixed;
+  left: 41%;
+  top: 16%;
+  background-color: #85ecca;
+  height: 8px;
+  width: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.div--trans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 28%;
+  left: 30%;
+  margin-top: 130px;
+}
+
+.styleOption {
+  color: #85ecca;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+/*# sourceMappingURL=styles.css.map */

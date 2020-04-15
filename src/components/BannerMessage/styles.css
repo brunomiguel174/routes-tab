@@ -1,0 +1,31 @@
+.div--banner {
+  position: relative;
+  left: 40%;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 300px;
+  background-color: #585856;
+  padding-left: 10px;
+  color: white;
+  -webkit-transition: top 1s ease-in;
+  transition: top 1s ease-in;
+}
+
+.div--banner .hideBanner {
+  position: absolute;
+  left: 90%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 14px;
+  width: 14px;
+}
+/*# sourceMappingURL=styles.css.map */
